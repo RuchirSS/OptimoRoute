@@ -24,7 +24,7 @@ def create_gemini_prompt(source, destination, mode_of_travel, is_transhipment, s
     return prompt
 
 def generate_gemini_prompt(prompt):
-    genai.configure(api_key="AIzaSyA181AEFg-9i8m0I7QwcrGdA4dw7SlGvjo")
+    genai.configure(api_key="API_KEY")
     generation_config = {
         "temperature": 0.9,
         "top_p": 1,
